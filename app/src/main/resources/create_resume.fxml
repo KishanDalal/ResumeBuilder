@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.resumebuilder.presentation.CreateResumeController" spacing="10" alignment="CENTER">
+    <Label text="Resume Name:"/>
+    <TextField fx:id="resumeNameField"/>
+    <Label text="Email:"/>
+    <TextField fx:id="emailField"/>
+    <Label text="Phone:"/>
+    <TextField fx:id="phoneField"/>
+    <Label text="Address:"/>
+    <TextField fx:id="addressField"/>
+    <Label text="Summary:"/>
+    <TextArea fx:id="summaryField" prefRowCount="3"/>
+    <Button text="Create Resume" onAction="#handleCreateResumeButton"/>
+</VBox>

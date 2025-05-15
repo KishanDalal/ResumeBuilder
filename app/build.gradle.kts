@@ -32,5 +32,5 @@ dependencies {
 }
 
 application {
-    mainClass.set("com.resumebuilder.App")
+    mainClass.set("com.resumebuilder.presentation.ResumeApp")
 }
